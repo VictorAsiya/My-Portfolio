@@ -1,3 +1,37 @@
+# Victor Asiya Portfolio
+
+# Api running
+npx json-server --watch api/api.json --port 4000
+http://localhost:4000/victor
+
+# Colors to use
+Background: #0F172A (Dark Blue-Gray)
+Text: #F8FAFC (Soft White)
+Accent: #38BDF8 (Sky Blue)
+Buttons/Hover: #0EA5E9 (Cyan)
+
+Light Gray: #94A3B8 – good for subtle borders or secondary text
+Slate Gray: #1E293B – great for cards, navbars, or side panels
+Steel Blue: #334155 – nice middle ground for backgrounds or shadows
+
+Bright Cyan: #22D3EE – pop color for hover effects or CTA buttons
+Teal: #0D9488 – for tag elements, icons, or hover transitions
+Purple Accent: #818CF8 – adds a slightly creative/futuristic edge
+
+Amber: #FBBF24 – draws attention to key content or warnings
+Rose: #FB7185 – use for personal touch or branding flair
+Emerald Green: #10B981 – good for success messages or eco vibes
+
+Dark Navy: #0C1222 – deeper than your base background, good for layering
+Muted Blue: #1E40AF – strong but not overpowering
+Cloud White: #E2E8F0 – gentle light sections or modals
+
+#0F172A background + #1E293B cards + #F8FAFC text + #38BDF8 accents
+Buttons: #38BDF8 with hover to #0EA5E9, or invert with #F8FAFC on a #0EA5E9 background
+Use #FBBF24 or #10B981 for badges or project category tags
+
+import * as SC from '../../../style.js';
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,22 @@
+{
+  "victor": [
+    {
+        "id": 1,
+        "name": "Hi,\nI'm Victor Asiya",
+        "about": "Victor is a software engineer with a passion for coding and technology. He enjoys",
+        "learn": "Contact Me"
+      },
+    {
+      "id": 2,
+      "name": "About Me",
+      "about": "Victor is a software engineer with a passion for coding and technology. He enjoys solving complex problems and is always eager to learn new skills.",
+      "learn": "Learn More"
+    },
+    {
+      "id": 3,
+      "name": "My Work",
+      "about": "dedicated and hardworking individual who is always looking for ways to improve himself and satisfy client clients.",
+      "learn": "Browse My Work"
+    }
+  ]
+}

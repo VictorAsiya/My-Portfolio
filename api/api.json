@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Classic Cheeseburger",
+      "about": 5.99,
+      "learn": "A juicy beef patty with cheese, lettuce, tomato, and our secret sauce."
+    },
+    {
+      "id": 2,
+      "name": "Bacon BBQ Burger",
+      "about": 6.99,
+      "learn": "Smoky bacon, BBQ sauce, crispy onions, and cheddar cheese."
+    }
+  ]
+}

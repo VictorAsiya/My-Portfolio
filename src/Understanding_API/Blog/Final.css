@@ -1,0 +1,103 @@
+.FinalDiv {
+  height: 85%;
+  padding-top: 15vh;
+  width: 100%;
+  display: flex;
+  gap: 10%;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: blue; */
+  background-image: url("../../Images/Victor_Img.png");
+  /* background: linear-gradient(rgba(19, 4, 5, 0.4), rgba(1, 1, 10, 0.8)), url(); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.left,
+.right {
+  width: 30%;
+  height: 80%;
+  text-align: justify;
+  transition: ease-in-out 0.2s;
+  /* background-color: aqua; */
+}
+.left p,
+.right p {
+  color: #ffffff96;
+}
+.left {
+  font-size: 4vh;
+  padding: 5px 10px;
+  width: 40%;
+  margin: 0;
+  display: grid;
+  /* justify-content: center; */
+  align-content: center;
+}
+.left h1 {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 900;
+}
+.right {
+  padding: 0 40px 0;
+  height: 90%;
+}
+.right h1 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.right, .left{
+  opacity: 0;
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.delay {
+  animation-delay: 3.8s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(33, 31, 31, 0.8);
+  z-index: 3;
+  pointer-events: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.p{
+  font-size: 4vh;
+  font-weight: 900;
+  color: white;
+}
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
