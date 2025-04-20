@@ -107,7 +107,9 @@ const [load, setLoad] = useState(true)
 const [error, setError] = useState(null)
 
 useEffect(()=>{
+
   setTimeout(()=>{
+    
     fetch(url)
     .then((res)=>{
       if(!res.ok){

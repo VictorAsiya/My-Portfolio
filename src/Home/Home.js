@@ -1,15 +1,20 @@
 import React from "react";
 import Final from "../Understanding_API/Blog/Final";
 import Header from "../Header";
-import * as SC from '.././style'
+import * as SC from "../style";
+import About from "../About";
 
-function Home() {
+function Container() {
   return (
-    <SC.HomeDiv>
-      <Header />
-      <Final />
-    </SC.HomeDiv>
+    <SC.Main>
+      <SC.homeSection>
+        <Header />
+        <Final />
+      </SC.homeSection>
+
+      <About/>
+    </SC.Main>
   );
 }
 
-export default Home;
+export default Container;

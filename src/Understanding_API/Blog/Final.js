@@ -153,7 +153,7 @@ import "./Final.css";
 
 
 function Final() {
-  const [data, Load, error] = useFetch("https://my-portfolio-api-pi.vercel.app/api/menu/");
+  const [data, Load, error] = useFetch("https://my-portfolio-api-pi.vercel.app/api/menu");
   return (
     <div className="FinalDiv">
       <div className="left delay">
@@ -177,7 +177,5 @@ function Final() {
     </div>
   );
 }
-
-
 
 export default Final;
